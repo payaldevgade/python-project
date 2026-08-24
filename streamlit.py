@@ -2,7 +2,7 @@ import streamlit as st
 from bankmanagement import Bank
 
 bank = Bank()
-
+ 
 st.set_page_config(page_title="Bank Management System", page_icon="🏦")
 
 st.title(" Bank Management System")
