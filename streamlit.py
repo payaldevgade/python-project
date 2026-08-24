@@ -9,7 +9,7 @@ st.title(" Bank Management System")
 
 menu = st.sidebar.selectbox(
     "Select",
-    [
+    [ 
         "Create Account",
         "Deposit",
         "Withdraw",
