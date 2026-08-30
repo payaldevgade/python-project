@@ -3,6 +3,7 @@ import random
 import string
 from pathlib import Path
 
+
 class Bank:
 
     DATABASE = "data.json"
