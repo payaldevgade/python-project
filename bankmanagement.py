@@ -20,6 +20,7 @@ class Bank:
 
 
     def save(self):
+        
         with open(self.DATABASE, "w") as f:
             json.dump(self.data, f, indent=4)
 
