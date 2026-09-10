@@ -13,6 +13,7 @@ def readfileandfolder():
 
 def createfile():
     try: 
+        
         readfileandfolder()
         name = input("Enter your file name:-")
         p = Path(name)
