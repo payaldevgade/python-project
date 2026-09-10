@@ -62,6 +62,7 @@ def reaffile():
 
 def updatefile():
     try:
+        
         readfileandfolder()
         name = input(" enter which file you want to update")
         p = Path(name)
