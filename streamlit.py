@@ -46,6 +46,7 @@ if menu == "Create Account":
         if success:
             st.success("Account Created Successfully")
             st.write(msg)
+         
         else:
             st.error(msg)
 
