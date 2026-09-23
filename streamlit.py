@@ -135,6 +135,7 @@ elif menu == "Update Details":
 
         if success:
             st.success(msg)
+         
         else:
             st.error(msg)
 
