@@ -155,5 +155,6 @@ elif menu == "Delete Account":
 
         if success:
             st.success(msg)
+         
         else:
             st.error(msg)
