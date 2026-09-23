@@ -62,6 +62,7 @@ def reaffile():
 
 
 def updatefile():
+    
     try:
         
         readfileandfolder()
