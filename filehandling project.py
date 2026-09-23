@@ -1,6 +1,6 @@
 from pathlib import Path
 
-import o
+import os
 
 
 def readfileandfolder():
