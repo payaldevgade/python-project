@@ -1,6 +1,7 @@
 from pathlib import Path
 import os
 
+
 def readfileandfolder():
     path = Path()
     items = list(path.rglob('*'))
